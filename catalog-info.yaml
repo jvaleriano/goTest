@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: goProject
+  description: this is a test go project
+  annotations: 
+    github.com/project-slug: jvaleriano/goTest
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jvaleriano
